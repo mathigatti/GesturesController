@@ -13,3 +13,5 @@ This program relies on [fingerpose](https://github.com/mathigatti/fingerpose) de
 ```
 flask run --host=0.0.0.0 --port=8080
 ```
+
+Once it's running you should be able to access [http://localhost:8080/](http://localhost:8080/) and see the webcam running and identifying your hand.
