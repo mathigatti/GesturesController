@@ -19,7 +19,7 @@ def softdrums(hpff=250):
 
 def melody():
     hpff=250
-    p1 >> glass(var([0,2],4), drive=0.3, dur=PSum(7,4),amp=0.7,pan=PWhite(-1,1)).every(4,'stutter',2,dur=1) + var([0,2],8)
+    p1 >> piano(var([0,2],4), drive=0.3, dur=PSum(7,4),amp=0.7,pan=PWhite(-1,1)).every(4,'stutter',2,dur=1) + var([0,2],8)
     c1 >> glass([0],oct=4)
 
 def note2index(note):
